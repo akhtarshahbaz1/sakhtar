@@ -1,0 +1,6 @@
+@AzDevOpsApi_HostAddress = http://localhost:5153
+
+GET {{AzDevOpsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
