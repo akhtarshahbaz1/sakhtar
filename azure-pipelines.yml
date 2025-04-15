@@ -4,7 +4,7 @@ trigger:
       - main  # or any branch you want to trigger the pipeline on
   paths:
     include:
-      - sakhtar/AzDevOpsApi/*
+      - AzDevOpsApi/*
 
 pool:
   vmImage: 'ubuntu-latest'
